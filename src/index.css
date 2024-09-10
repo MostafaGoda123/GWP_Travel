@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mainColor1 : #09B4C6 ; 
+  --mainColor2 : #0077A3 ; 
+}
+body {
+  background: #ededed ;
+}
+@media (max-width : 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .container {
+    width: 95%;
+  }
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 2rem ;
+  border-radius: 1rem ;
+  background: linear-gradient(#09B4C6 , #0077A3);
+  color: white ;
+}
+.bannerVideo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+}
